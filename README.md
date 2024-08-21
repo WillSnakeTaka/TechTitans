@@ -1,7 +1,10 @@
 # TechTitans
 CTP Hacks
 Team Members: 
-Chris, Quazi, Xin, William 
+Chris : https://github.com/ii2Chris
+Quazi, 
+Xin, 
+William (me)
 
 Files consists of: 
 
