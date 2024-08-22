@@ -17,8 +17,91 @@ video {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a shadow for depth */
 }
 
-
 body  {
   background-image: url("pic/backgroup.jpg");
   background-color: #cccccc;
+}
+
+/* Additional inline styles for quick adjustments */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+header nav ul li {
+  margin: 0 15px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem; /* Increased font size for header links */
+  transition: color 0.3s;
+}
+header nav ul li a:hover {
+  color: #cce5ff;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar img {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 200px; /* Set fixed width for sidebar images */
+  height: 120px; /* Set fixed height for sidebar images */
+  margin: 10px 0;
+}
+.content {
+  text-align: center;
+  padding: 20px;
+  flex: 2;
+}
+video {
+  max-width: 100%;
+  width: 375px; /* Set a specific width for the video */
+  height: auto;
+  border: 2px solid #003366;
+  border-radius: 10px;
+  margin: 0 auto; /* Center the video */
+  display: block;
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-content img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+footer p {
+  margin: 0;
+  color: #333;
+  font-size: 1.2rem; /* Increased font size for footer text */
 }
