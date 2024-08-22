@@ -5,6 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Titan Layout</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Additional inline styles for quick adjustments */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        header nav ul li {
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem; /* Increased font size for header links */
+            transition: color 0.3s;
+        }
+        header nav ul li a:hover {
+            color: #cce5ff;
+        }
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sidebar img {
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            width: 200px; /* Set fixed width for sidebar images */
+            height: 120px; /* Set fixed height for sidebar images */
+            margin: 10px 0;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+            flex: 2;
+        }
+        video {
+            max-width: 100%;
+            width: 375px; /* Set a specific width for the video */
+            height: auto;
+            border: 2px solid #003366;
+            border-radius: 10px;
+            margin: 0 auto; /* Center the video */
+            display: block;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer .footer-content img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        footer p {
+            margin: 0;
+            color: #333;
+            font-size: 1.2rem; /* Increased font size for footer text */
+        }
+    </style>
 </head>
 <body>
 
@@ -14,38 +99,43 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#tech-titan">Tech Titan</a></li>
-                <li><a href="#Team Members">Team Members</a></li>
+                <li><a href="#team-members">Team Members</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Content -->
-   <main>
-    <div class="sidebar left">
-        <a href="#category1"><img src="pic/test.jpg" alt="Category 1"></a>
-        <a href="#category2"><img src="pic/test.jpg" alt="Category 2"></a>
-        <a href="#category3"><img src="pic/test.jpg" alt="Category 3"></a>
-        <a href="#category4"><img src="pic/test.jpg" alt="Category 4"></a>
-        <a href="#category5"><img src="pic/test.jpg" alt="Category 5"></a>
-        <a href="#category6"><img src="pic/test.jpg" alt="Category 6"></a>
-    </div>
+    <main style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <!-- Left Sidebar -->
+        <div class="sidebar left" style="flex: 1; min-width: 200px;">
+            <a href="#category1"><img src="pic/test.jpg" alt="Category 1"></a>
+            <a href="#category2"><img src="pic/test.jpg" alt="Category 2"></a>
+            <a href="#category3"><img src="pic/test.jpg" alt="Category 3"></a>
+            <a href="#category4"><img src="pic/test.jpg" alt="Category 4"></a>
+            <a href="#category5"><img src="pic/test.jpg" alt="Category 5"></a>
+            <a href="#category6"><img src="pic/test.jpg" alt="Category 6"></a>
+        </div>
 
-    <div class="content">
-        <video width="210" height="360" controls autoplay>
-        <source src="Media/Test.mp4" type="video/mp4">
-        </video>
-    </div>
+        <!-- Content Area -->
+        <div class="content" style="flex: 2; max-width: 1000px;">
+            <video controls autoplay>
+                <source src="Media/Test.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
 
-    <div class="sidebar right">
-        <a href="#category7"><img src="pic/test.jpg" alt="Category 7"></a>
-        <a href="#category8"><img src="pic/test.jpg" alt="Category 8"></a>
-        <a href="#category9"><img src="pic/test.jpg" alt="Category 9"></a>
-        <a href="#category10"><img src="pic/test.jpg" alt="Category 10"></a>
-        <a href="#category11"><img src="pic/test.jpg" alt="Category 11"></a>
-        <a href="#category12"><img src="pic/test.jpg" alt="Category 12"></a>
-    </div>
-</main>
+        <!-- Right Sidebar -->
+        <div class="sidebar right" style="flex: 1; min-width: 200px;">
+            <a href="#category7"><img src="pic/test.jpg" alt="Category 7"></a>
+            <a href="#category8"><img src="pic/test.jpg" alt="Category 8"></a>
+            <a href="#category9"><img src="pic/test.jpg" alt="Category 9"></a>
+            <a href="#category10"><img src="pic/test.jpg" alt="Category 10"></a>
+            <a href="#category11"><img src="pic/test.jpg" alt="Category 11"></a>
+            <a href="#category12"><img src="pic/test.jpg" alt="Category 12"></a>
+        </div>
+    </main>
+
     <!-- Footer -->
     <footer>
         <div class="footer-content">
@@ -56,3 +146,4 @@
 
 </body>
 </html>
+

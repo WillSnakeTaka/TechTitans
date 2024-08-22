@@ -4,11 +4,19 @@
     margin: 10px
 }
 
-video {
+/* video {
   position: relative;
   left: 36%;
   transform: translateX(-50%);
+} */
+video {
+  display: block;
+  margin: 20px auto; /* Centering the video */
+  max-width: 100%; /* Make the video responsive */
+  border-radius: 10px; /* Adding a subtle rounded border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a shadow for depth */
 }
+
 
 body  {
   background-image: url("pic/backgroup.jpg");
