@@ -4,9 +4,9 @@ Team Members:
 
 Chris : https://github.com/ii2Chris
 
-Quazi, 
+Quazi :
 
-Xin, 
+Xin : https://github.com/Neko233x
 
 William (me)
 
