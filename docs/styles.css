@@ -10,3 +10,7 @@ video {
   transform: translateX(-50%);
 }
 
+body  {
+  background-image: url("pic/backgroup.jpg");
+  background-color: #cccccc;
+}
