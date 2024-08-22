@@ -6,10 +6,7 @@
 
 video {
   position: relative;
-  left: 50%;
+  left: 36%;
   transform: translateX(-50%);
 }
 
-body  {
-  background-image: url("pic/test.jpg");
-}
