@@ -4,8 +4,8 @@
     margin: 10px
 }
 
-.footerImage {
-   width: 100px;
-    height: 100px;
-    margin: 10px
+video {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
