@@ -1,0 +1,11 @@
+AI for bot: 
+Open terminal
+python -m venv myenv     //this is for virtual enviroment
+Something called pip (Python package installer)
+pip install openai   // this is to install open ai on your mac
+
+Check to see if it works: 
+import openai
+print("OpenAI library installed successfully!")
+
+... still learning 
