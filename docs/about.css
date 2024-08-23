@@ -69,9 +69,12 @@ header nav ul li a:hover {
 }
 
 .text-box {
-    height: 100px;
-    background-color: #e0e0e0;
-    margin: 15px 0;
+    max-width: 300px; /* Adjust this value to match the other boxes */
+    margin: 0 auto; /* Center the box */
+    padding: 10px; /* Add some padding */
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .social-links {
