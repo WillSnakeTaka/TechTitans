@@ -69,12 +69,18 @@ header nav ul li a:hover {
 }
 
 .text-box {
-    max-width: 300px; /* Adjust this value to match the other boxes */
-    margin: 0 auto; /* Center the box */
-    padding: 10px; /* Add some padding */
+    max-width: 300px; /* Set the width to match other boxes */
+    max-height: 200px; /* Set the max height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
     background-color: #f8f9fa;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-box p {
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 .social-links {
