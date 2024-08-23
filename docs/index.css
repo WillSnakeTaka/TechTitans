@@ -188,9 +188,11 @@ figcaption {
 }
 
 .menu-icon {
+  display: flex;
   align-items: center;
   cursor: pointer;
   position: absolute;
   right: 20px;
+  top: 50%;
   transform: translateY(-50%);
 }
