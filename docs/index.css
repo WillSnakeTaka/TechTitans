@@ -39,6 +39,7 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
 }
 header nav ul {
   list-style: none;
@@ -123,10 +124,6 @@ figcaption {
     text-align: center; 
 }
 
-
-
-
-
 .navbar {
     position: absolute;
     top: 10px;
@@ -188,4 +185,12 @@ figcaption {
 
 .menu.show {
     display: block;
+}
+
+.menu-icon {
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  transform: translateY(-50%);
 }
