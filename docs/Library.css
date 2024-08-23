@@ -1,0 +1,183 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #003366; /* Dark Blue */
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #004080; /* Darker Blue */
+    border-radius: 5px;
+  }
+  
+  /* Main content styling */
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #003366; /* Dark Blue */
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin: 1rem 0;
+  }
+  
+  /* Section styling */
+  section {
+    background-color: #e0ffff; /* Light Cyan */
+    border: 1px solid #b0e0e6; /* Powder Blue */
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styling for h2 without box layout */
+  h2 {
+    color: #003366; /* Dark Blue */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background: none;
+    border: none;
+    border-radius: 0;
+  }
+  
+  /* Styling for links within sections */
+  section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  section ul li a {
+    display: block;
+    background-color: #4682b4; /* Steel Blue */
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  section ul li a:hover {
+    background-color: #003366; /* Dark Blue */
+    text-decoration: none;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #003366; /* Dark Blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    
+    nav ul li {
+      margin: 0.5rem 0;
+    }
+    
+    footer {
+      position: static;
+      padding: 0.5rem 0;
+    }
+  }
+  /* Main content styling */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+  }
+  
+  /* Additional styling for introductory text */
+  main p {
+    margin: 1rem 0;
+  }
+  
+  /* Styling for the list of offerings */
+  ul.offerings {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: inline-block; /* Align list to the center */
+  }
+  
+  ul.offerings li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  /* Styling for h2 without box layout */
+  h2 {
+    color: #003366; /* Dark Blue */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background: none;
+    border: none;
+    border-radius: 0;
+  }
+  
+  
