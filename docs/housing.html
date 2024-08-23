@@ -4,78 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Housing Resources</title>
-    <link rel="stylesheet" href="index.css"> <!-- 使用同一个CSS文件 -->
 </head>
 <body>
+    <h1>Housing Resources</h1>
 
-    <!-- Header -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="techtitan.html">Tech Titan</a></li>
-                <li><a href="about.html">Team Members</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h2>Baruch College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-    <!-- Main Content -->
-    <main>
-        <h1>Housing & Dormitories Resources</h1>
-        <p>Below are some resources related to Housing & Dormitories found by our AI:</p>
-        <ul id="resource-list">
-            <!-- AI 返回的资源链接将显示在这里 -->
-        </ul>
+    <h2>BMCC</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-        <!-- 将输入框移动到资源列表下方 -->
-        <form id="chat-form">
-            <label for="question">Ask about housing resources:</label>
-            <input type="text" id="question" name="question" required>
-            <button type="submit">Ask</button>
-        </form>
+    <h2>Bronx College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-        <div id="response-container"></div>
-    </main>
+    <h2>Brooklyn College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Tech Titans. All rights reserved.</p>
-    </footer>
+    <h2>City College of New York</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-    <script>
-        document.getElementById('chat-form').addEventListener('submit', async function(event) {
-            event.preventDefault();
+    <h2>City Tech</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-            const question = document.getElementById('question').value;
+    <h2>College of Staten Island</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-            const response = await fetch('/api/chat', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ prompt: question }),
-            });
+    <h2>Hunter College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-            const data = await response.json();
-            
-          
-            const resourceList = document.getElementById('resource-list');
-            resourceList.innerHTML = '';
+    <h2>John Jay College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-          
-            data.resources.forEach(resource => {
-                const listItem = document.createElement('li');
-                const link = document.createElement('a');
-                link.href = resource.url;
-                link.textContent = resource.name;
-                listItem.appendChild(link);
-                resourceList.appendChild(listItem);
-            });
+    <h2>Kingsborough College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
 
-            
-            document.getElementById('response-container').innerText = data.answer;
-        });
-    </script>
+    <h2>LaGuardia College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
+
+    <h2>Lehman College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
+
+    <h2>Queens College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
+
+    <h2>York College</h2>
+    <ul>
+        <li><a href="#">Housing Resource 1</a></li>
+        <li><a href="#">Housing Resource 2</a></li>
+        <li><a href="#">Housing Resource 3</a></li>
+    </ul>
+
+    <p><a href="#">Back to Home Page</a></p>
 </body>
 </html>
