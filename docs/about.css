@@ -41,8 +41,39 @@ header nav ul li a:hover {
     color: #cce5ff;
 }
 
-.title {
+.title, .heading {
     text-align: center;
     margin-top: 20px;
+    color: #4682B4;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.team-member {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.team-member h3 {
+    margin-top: 0;
+    color: #003366;
+}
+
+.text-box {
+    height: 100px;
+    background-color: #e0e0e0;
+    margin: 15px 0;
+}
+
+.social-links {
     color: #4682B4;
 }
