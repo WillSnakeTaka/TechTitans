@@ -199,3 +199,14 @@ figcaption {
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+#search-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search-results {
+    margin-top: 10px;
+    text-align: center;
+}
