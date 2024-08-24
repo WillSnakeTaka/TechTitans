@@ -223,7 +223,7 @@ figcaption {
 
 .text-gold {
     font-family: 'Arial', sans-serif; /* Choose a clean, legible font */
-    font-size: 20px; /* Adjust the size as needed */
+    font-size: 16px; /* Adjust the size as needed */
     font-weight: bold; /* Makes the text bold */
     background: linear-gradient(45deg, #FFD700, #FFB14E, #FFD700);
     -webkit-background-clip: text;
