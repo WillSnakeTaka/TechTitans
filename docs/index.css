@@ -116,15 +116,23 @@ footer p {
 
 
 figure {
-    text-align: center; 
-    margin: 10px 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Center align the contents */
+    width: fit-content; /* Adjusts the width to fit the image and caption */
+    padding: 10px; /* Adds some padding around the figure */
 }
 
 figcaption {
-    margin-top: 10px;
-    font-size: 16px; 
-    color: #333; 
-    text-align: center; 
+    margin-top: 10px; /* Space between the image and caption */
+    font-size: 18px; /* Adjust font size if needed */
+    color: #FFD700; /* Make sure the color matches gold text */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensures the image is responsive */
 }
 
 .navbar {
