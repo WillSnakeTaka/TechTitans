@@ -82,3 +82,11 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #cce5ff;
   }
+
+body {
+  background-image: url("pic/Jelly.gif");
+  background-color: #cccccc;
+  background-size: cover; /* Scales the image to cover the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image in the viewport */
+}
