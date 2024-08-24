@@ -116,24 +116,22 @@ footer p {
 
 
 figure {
-    display: block;
     width: 300px; 
     margin: 0 auto 20px auto; 
-    text-align: center;
+    text-align: left; 
 }
 
 figcaption {
     margin-top: 10px; 
     font-size: 18px; 
     color: #FFD700; 
+    text-align: left; 
 }
 
 img {
     width: 100%; 
     height: auto; 
-    max-width: 300px; 
     display: block;
-    margin: 0 auto; 
 }
 
 
