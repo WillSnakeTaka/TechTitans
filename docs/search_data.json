@@ -39,4 +39,10 @@
         "description": "Using School Labs.",
         "url": "technology.html"
     }
+    ,
+    {
+        "title": "Food Pantries",
+        "description": "Finding food.",
+        "url": "food.html"
+    }
 ]
