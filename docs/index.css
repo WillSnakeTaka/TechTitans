@@ -201,12 +201,21 @@ figcaption {
 }
 
 
-#search-container {
-    margin-top: 20px;
-    text-align: center;
-}
-
 #search-results {
     margin-top: 10px;
     text-align: center;
+    color: #ffffff; 
+}
+
+#search-results a {
+    color: #4CAF50; 
+    text-decoration: none; 
+}
+
+#search-results a:hover {
+    color: #FF5733; 
+}
+
+#search-results p {
+    color: #b3b3b3; 
 }
