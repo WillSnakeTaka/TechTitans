@@ -9,4 +9,34 @@
         "description": "Get help with your studies.",
         "url": "Academic Support.html"
     }
+    ,
+    {
+        "title": "Financial Aid",
+        "description": "Get help with your Fiancial needs.",
+        "url": "Financial.html"
+    }
+    ,
+    {
+        "title": "Library Assistances",
+        "description": "Get help with books.",
+        "url": "Library.html"
+    }
+    ,
+    {
+        "title": "Religion Support",
+        "description": "Get help with Religions.",
+        "url": "Religion.html"
+    }
+    ,
+    {
+        "title": "Student Union",
+        "description": "Finding Communities.",
+        "url": "student.html"
+    }
+    ,
+    {
+        "title": "Technology Support",
+        "description": "Using School Labs.",
+        "url": "technology.html"
+    }
 ]
