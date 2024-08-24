@@ -17,9 +17,12 @@ video {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a shadow for depth */
 }
 
-body  {
+body {
   background-image: url("pic/Jelly.gif");
   background-color: #cccccc;
+  background-size: cover; /* Scales the image to cover the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image in the viewport */
 }
 
 /* Additional inline styles for quick adjustments */
