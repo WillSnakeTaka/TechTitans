@@ -235,4 +235,5 @@ img {
     -webkit-text-fill-color: transparent;
     text-shadow: 1px 1px 2px #000, 0 0 25px #FFDD44, 0 0 5px #FFD700;
     font-weight: bold;
+    text-align: left;
 }
