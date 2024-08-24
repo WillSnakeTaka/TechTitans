@@ -230,10 +230,9 @@ img {
 
 
 .text-gold {
-    background: linear-gradient(45deg, #FFFFFF, #DDDDDD, #FFFFFF);
+    background: linear-gradient(45deg, #C0C0C0, #A9A9A9, #C0C0C0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 1px 1px 2px #000, 0 0 5px #000, 0 0 10px #FFFFFF;
+    text-shadow: 1px 1px 2px #0000FF, 0 0 5px #1E90FF, 0 0 10px #87CEFA;
     font-weight: bold;
-    text-align: justify;
 }
