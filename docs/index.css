@@ -233,6 +233,6 @@ img {
     background: linear-gradient(45deg, #FFFFFF, #DDDDDD, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 1px 1px 2px #000, 0 0 5px #000, 0 0 10px #FFFFFF;
+    text-shadow: 1px 1px 2px #39F3DA, 0 0 5px #39F3DA, 0 0 10px #FFFFFF;
     font-weight: bold;
 }
